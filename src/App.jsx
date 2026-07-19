@@ -33,7 +33,15 @@ const Home = () => (
     <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
       <Hero />
     </div>
-    {/* Optional: Add a brief preview of other sections on home page */}
+    <About />
+    <Experience />
+    <Tech />
+    <Works />
+    <Feedbacks />
+    <div className='relative z-0'>
+      <Contact />
+      <StarsCanvas />
+    </div>
   </>
 );
 
@@ -82,43 +90,7 @@ const App = () => {
           </Routes>
         </div>
 
-        <div className='relative z-0'>
-          <StarsCanvas />
-          <footer className='bg-tertiary text-secondary py-10 mt-12 z-10 relative border-t border-black-200'>
-            <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
-              <div>
-                <h4 className="text-white font-bold text-[18px] mb-4">BharathDotExe</h4>
-                <p className="text-[14px] leading-relaxed mb-4">
-                  BharathDotExe is the official developer identity of Bharath V. 
-                  Specializing in AI, Machine Learning, and Full-Stack Architecture.
-                </p>
-                <p className="text-[14px]">
-                  &copy; {new Date().getFullYear()} Bharath V. All rights reserved.
-                </p>
-              </div>
-              
-              <div>
-                <h4 className="text-white font-bold text-[18px] mb-4">Discover</h4>
-                <ul className="flex flex-col gap-2 text-[14px]">
-                  <li><Link to="/bharathdotexe" className="hover:text-[#915EFF]">What is BharathDotExe?</Link></li>
-                  <li><Link to="/about-bharathdotexe" className="hover:text-[#915EFF]">About Bharath</Link></li>
-                  <li><Link to="/who-is-bharathdotexe" className="hover:text-[#915EFF]">Who is Bharath V?</Link></li>
-                  <li><Link to="/developer" className="hover:text-[#915EFF]">Software Engineer</Link></li>
-                  <li><Link to="/portfolio" className="hover:text-[#915EFF]">Full Portfolio</Link></li>
-                </ul>
-              </div>
-
-              <div>
-                <h4 className="text-white font-bold text-[18px] mb-4">Expertise</h4>
-                <ul className="flex flex-col gap-2 text-[14px]">
-                  <li><Link to="/ai-engineer" className="hover:text-[#915EFF]">AI Engineer</Link></li>
-                  <li><Link to="/machine-learning" className="hover:text-[#915EFF]">Machine Learning</Link></li>
-                  <li><Link to="/open-source" className="hover:text-[#915EFF]">Open Source</Link></li>
-                </ul>
-              </div>
-            </div>
-          </footer>
-        </div>
+      </div>
       </div>
     </BrowserRouter>
   );
