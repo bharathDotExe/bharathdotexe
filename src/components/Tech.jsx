@@ -66,22 +66,6 @@ const skillCategories = [
   },
 ];
 
-const SkillBar = ({ name, level }) => (
-  <div className="mb-4">
-    <div className="flex justify-between mb-1">
-      <span className="text-white text-sm font-medium">{name}</span>
-      <span className="text-secondary text-sm font-medium">{level}%</span>
-    </div>
-    <div className="w-full bg-tertiary rounded-full h-2.5">
-      <motion.div
-        className="bg-[#915EFF] h-2.5 rounded-full"
-        initial={{ width: 0 }}
-        whileInView={{ width: `${level}%` }}
-        transition={{ duration: 1, ease: "easeOut" }}
-      />
-    </div>
-  </div>
-);
 
 const Tech = () => {
   return (
@@ -102,9 +86,13 @@ const Tech = () => {
             className="bg-tertiary p-6 rounded-2xl shadow-card"
           >
             <h3 className="text-white text-[24px] font-bold mb-6">{category.title}</h3>
-            {category.skills.map((skill) => (
-              <SkillBar key={skill.name} name={skill.name} level={skill.level} />
-            ))}
+            <div className="flex flex-wrap gap-3">
+              {category.skills.map((skill) => (
+                <div key={skill.name} className="px-4 py-2 bg-black-200 rounded-lg text-secondary text-[14px] font-medium border border-white/10 hover:text-white hover:border-[#915EFF] transition-colors cursor-default">
+                  {skill.name}
+                </div>
+              ))}
+            </div>
           </motion.div>
         ))}
       </div>

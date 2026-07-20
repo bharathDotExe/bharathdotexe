@@ -20,35 +20,64 @@ const Resume = () => {
         </p>
         
         <div className="flex flex-wrap justify-center gap-6 w-full">
-          {/* Note: User will need to add their actual resume.pdf to the public folder */}
           <a 
             href="/resume.pdf" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="bg-[#915EFF] hover:bg-white hover:text-[#915EFF] text-white py-4 px-10 rounded-xl font-bold text-[18px] transition-all shadow-md flex items-center gap-3"
+            className="bg-[#915EFF] hover:bg-white hover:text-[#915EFF] text-white py-3 px-6 rounded-xl font-bold text-[16px] transition-all shadow-md flex items-center gap-2"
           >
-            <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 24 24" height="1.2em" width="1.2em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"></path></svg>
-            Download PDF Resume
+            Download Resume 1
+          </a>
+          <a 
+            href="/resume1.pdf" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-[#915EFF] hover:bg-white hover:text-[#915EFF] text-white py-3 px-6 rounded-xl font-bold text-[16px] transition-all shadow-md flex items-center gap-2"
+          >
+            Download Resume 2
+          </a>
+          <a 
+            href="/resume2.pdf" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-[#915EFF] hover:bg-white hover:text-[#915EFF] text-white py-3 px-6 rounded-xl font-bold text-[16px] transition-all shadow-md flex items-center gap-2"
+          >
+            Download Resume 3
           </a>
           
           <a 
             href="https://www.linkedin.com/in/bharath-v-442425352/" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="bg-black-100 hover:bg-tertiary text-white py-4 px-10 rounded-xl font-bold text-[18px] transition-all shadow-md border border-white/10"
+            className="bg-black-100 hover:bg-tertiary text-white py-3 px-6 rounded-xl font-bold text-[16px] transition-all shadow-md border border-white/10"
           >
             View on LinkedIn
           </a>
         </div>
         
-        <div className="mt-16 w-full text-left">
-           <h3 className="text-white text-[24px] font-bold mb-4">Quick Summary</h3>
-           <ul className="list-disc list-inside text-secondary space-y-3 text-[16px]">
-              <li>BCA Student at Garden City University (9.5 CGPA).</li>
-              <li>Founder & Sole Technical Developer of UniShark.</li>
-              <li>Expertise in React, Python, Node.js, Next.js, and GenAI.</li>
-              <li>Strong track record of building production-ready architectures and systems.</li>
-           </ul>
+        <div className="mt-16 w-full text-center flex flex-col gap-10">
+           <h3 className="text-white text-[24px] font-bold">My Resumes</h3>
+           
+           <div className="w-full">
+             <h4 className="text-secondary mb-4 font-semibold text-lg text-left">Resume Version 1</h4>
+             <div className="w-full h-[600px] md:h-[800px] rounded-xl overflow-hidden border border-white/10 shadow-[0_0_15px_rgba(145,94,255,0.2)] bg-black-200">
+               <iframe src="/resume.pdf" width="100%" height="100%" title="Resume 1" className="border-none" />
+             </div>
+           </div>
+
+           <div className="w-full">
+             <h4 className="text-secondary mb-4 font-semibold text-lg text-left">Resume Version 2</h4>
+             <div className="w-full h-[600px] md:h-[800px] rounded-xl overflow-hidden border border-white/10 shadow-[0_0_15px_rgba(145,94,255,0.2)] bg-black-200">
+               <iframe src="/resume1.pdf" width="100%" height="100%" title="Resume 2" className="border-none" />
+             </div>
+           </div>
+
+           <div className="w-full">
+             <h4 className="text-secondary mb-4 font-semibold text-lg text-left">Resume Version 3</h4>
+             <div className="w-full h-[600px] md:h-[800px] rounded-xl overflow-hidden border border-white/10 shadow-[0_0_15px_rgba(145,94,255,0.2)] bg-black-200">
+               <iframe src="/resume2.pdf" width="100%" height="100%" title="Resume 3" className="border-none" />
+             </div>
+           </div>
         </div>
       </div>
     </>

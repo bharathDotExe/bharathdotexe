@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://bharath2006.site/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://bharath2006.site/bharathdotexe.jpeg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://bharath2006.site/Bharath%20V.jpeg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://bharath2006.site/Bharath%20V%20Portfolio.jpeg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://bharath2006.site/bharath.jpeg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://bharath2006.site/about</loc>
@@ -59,11 +72,17 @@
     <loc>https://bharath2006.site/about-bharathdotexe</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://bharath2006.site/about-bharathdotexe.jpeg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://bharath2006.site/who-is-bharathdotexe</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://bharath2006.site/who-is-bharathdotexe.jpeg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://bharath2006.site/developer</loc>

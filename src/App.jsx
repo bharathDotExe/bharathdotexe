@@ -94,7 +94,7 @@ const App = () => {
 
         <div
           className='relative z-0 bg-primary min-h-screen flex flex-col'
-          style={{ visibility: loading ? "hidden" : "visible" }}
+          style={{ opacity: loading ? 0 : 1 }}
         >
           <Navbar />
           

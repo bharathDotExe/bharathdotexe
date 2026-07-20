@@ -46,57 +46,28 @@ const Navbar = () => {
             B
           </div>
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            BharathDotExe &nbsp;
-            <span className='sm:block hidden'>| Bharath V</span>
+            BharathDotExe
           </p>
         </Link>
 
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
-          {navLinks.map((nav) => (
+        <ul className='list-none hidden sm:flex flex-row gap-8 items-center'>
+          {['About', 'Projects', 'Skills', 'Contact'].map((title) => (
             <li
-              key={nav.id}
+              key={title}
               className={`${
-                active === nav.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(nav.title)}
+                active === title ? "text-white" : "text-secondary"
+              } hover:text-white text-[16px] font-medium cursor-pointer`}
+              onClick={() => setActive(title)}
             >
-              <Link to={`/${nav.id}`}>{nav.title}</Link>
+              <Link to={`/${title.toLowerCase()}`}>{title}</Link>
             </li>
           ))}
-        </ul>
-
-        <div className='sm:hidden flex flex-1 justify-end items-center'>
-          <img
-            src={toggle ? close : menu}
-            alt='menu'
-            className='w-[28px] h-[28px] object-contain'
-            onClick={() => setToggle(!toggle)}
-          />
-
-          <div
-            className={`${
-              !toggle ? "hidden" : "flex"
-            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
-          >
-            <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4'>
-              {navLinks.map((nav) => (
-                <li
-                  key={nav.id}
-                  className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                    active === nav.title ? "text-white" : "text-secondary"
-                  }`}
-                  onClick={() => {
-                    setToggle(!toggle);
-                    setActive(nav.title);
-                  }}
-                >
-                  <Link to={`/${nav.id}`}>{nav.title}</Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-      </div>
+          <li>
+            <button className="text-secondary hover:text-white p-2 border border-white/10 rounded-full flex items-center justify-center ml-2 transition-colors hover:bg-white/5">
+              <svg stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" height="1.2em" width="1.2em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+            </button>
+          </li>
+        </ul>      </div>
     </nav>
   );
 };
