@@ -1,12 +1,22 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,100:804dee&height=220&section=header&text=Hi%20There,%20I'm%20Bharath%20V&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Aspiring%20Software%20Engineer%20%7C%20Full-Stack%20%26%20AI%2FML%20Developer&descAlignY=58&descSize=18" alt="header banner" />
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=804DEE&center=true&vCenter=true&width=650&lines=Founder+%40+UniShark;Full-Stack+Web+Developer;AI%2FML+%26+Automation+Enthusiast;Android+Developer+(Kotlin+%2B+Jetpack+Compose);Currently+Building+Suraksha+%F0%9F%9A%80" alt="Typing SVG" />
+<a href="https://youtu.be/0fYi8SGA20k?feature=shared" target="_blank">
+  <img src="https://github.com/adrianhajdin/project_3D_developer_portfolio/assets/151519281/4722160a-8e61-403f-a905-728feae1f7e6" alt="Project Banner" width="100%" />
 </a>
 
+<br/><br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=804DEE&center=true&vCenter=true&width=650&lines=Hi+There%2C+I'm+Bharath+V+%F0%9F%91%8B;Aspiring+Software+Engineer;Full-Stack+%26+AI%2FML+Developer;Founder+%40+UniShark;Currently+Building+Suraksha+%F0%9F%9A%80" alt="Typing SVG" />
+
 <br/>
+
+<img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
+<img src="https://img.shields.io/badge/-Next.js-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="next.js" />
+<img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+<img src="https://img.shields.io/badge/-Kotlin-black?style=for-the-badge&logoColor=white&logo=kotlin&color=7F52FF" alt="kotlin" />
+<img src="https://img.shields.io/badge/-Python-black?style=for-the-badge&logoColor=white&logo=python&color=3776AB" alt="python" />
+
+<br/><br/>
 
 <img src="https://img.shields.io/badge/📍_Location-Bengaluru,_India-black?style=for-the-badge&color=050816" alt="location" />
 <img src="https://img.shields.io/badge/🎓_CGPA-9.5-black?style=for-the-badge&color=804dee" alt="cgpa" />
@@ -22,7 +32,7 @@
 
 <br/>
 
-## 📋 <a name="table">Table of Contents</a>
+## 📋 Table of Contents
 
 1. 🤖 [About Me](#about-me)
 2. 🎓 [Education](#education)
@@ -45,6 +55,8 @@ I'm a **BCA undergraduate at Garden City University** (2024–2027) with a **9.5
 - 🧠 Strong foundation in **DSA, DBMS, and Operating Systems**, with hands-on experience shipping and deploying real-world applications.
 - 🚀 Currently building **Suraksha**, a multi-agent AI system to detect fake job/internship offers, for the *Google for Developers × AI House × HiDevs AI Agent Builder Series 2026* hackathon.
 - 🌱 Currently learning **Docker, Kubernetes, and Cloud Computing**.
+
+If you're getting started in dev and want to connect or collaborate, feel free to reach out — always happy to chat with fellow builders.
 
 <br clear="right"/>
 
@@ -168,12 +180,14 @@ I'm a **BCA undergraduate at Garden City University** (2024–2027) with a **9.5
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=bharathDotExe&theme=radical&hide_border=true&background=050816&ring=804dee&fire=804dee" alt="GitHub Streak" />
+<img src="https://streak-stats.demolab.com?user=bharathDotExe&theme=radical&hide_border=true&background=050816&ring=804dee&fire=804dee" alt="GitHub Streak" />
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=bharathDotExe&theme=redical&bg_color=050816&color=804dee&line=804dee&point=ffffff&hide_border=true" alt="Activity Graph" width="90%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=bharathDotExe&theme=react-dark&bg_color=050816&color=804dee&line=804dee&point=ffffff&hide_border=true" alt="Activity Graph" width="90%"/>
 </div>
+
+> ℹ️ The three widgets above pull **live data from your actual GitHub username** — make sure `bharathDotExe` above matches your real GitHub handle, otherwise they'll render an error image instead of your stats.
 
 <br/>
 
@@ -190,6 +204,14 @@ I'm a **BCA undergraduate at Garden City University** (2024–2027) with a **9.5
 
 📱 **Phone:** 8618463182 &nbsp;|&nbsp; 📍 **Location:** Bengaluru, India
 
+</div>
+
+<br/>
+
+<div align="center">
+<a href="https://youtu.be/0fYi8SGA20k?feature=shared" target="_blank">
+<img src="https://i.ibb.co/804sPK6/Image-720.png" alt="More" width="100%" />
+</a>
 </div>
 
 <br/>
